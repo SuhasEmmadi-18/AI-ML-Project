@@ -1,23 +1,23 @@
-# House Price Prediction (Basic ML Project)
+ House Price Prediction (Basic ML Project)
 
-## About the Project
+ About the Project
 
 This is a simple machine learning project where I tried to predict house prices based on a few factors like area, number of bedrooms, and age of the house.
 
 The main goal of this project was to understand how a basic ML model works from start to finish.
 
----
 
-## Tools Used
+
+ Tools Used
 
 * Python
 * pandas
 * numpy
 * scikit-learn
 
----
 
-## Dataset
+
+ Dataset
 
 I used a small dataset (`house_data.csv`) which contains:
 
@@ -26,9 +26,9 @@ I used a small dataset (`house_data.csv`) which contains:
 * age
 * price
 
----
 
-## What the Code Does
+
+ What the Code Does
 
 * Reads the dataset
 * Splits it into training and testing data
@@ -40,18 +40,18 @@ I used a small dataset (`house_data.csv`) which contains:
   * R² score
 * Takes user input and predicts house price
 
----
 
-## Results
+
+ Results
 
 * R² Score is around **0.97**
 * RMSE is around **8000**
 
 Since the dataset is very small, results may change slightly if the data split changes.
 
----
 
-## How to Run
+
+ How to Run
 
 1. Install required libraries:
 
@@ -67,9 +67,9 @@ pip install pandas numpy scikit-learn
 python filename.py
 ```
 
----
 
-## Example
+
+ Example
 
 Input:
 
@@ -85,9 +85,9 @@ Output:
 Predicted Price: ₹263,787
 ```
 
----
 
-## Limitations
+
+ Limitations
 
 * Works only within these ranges:
 
@@ -97,25 +97,24 @@ Predicted Price: ₹263,787
 * Very small dataset
 * Not accurate for real-world use
 
----
 
-## What I Learned
+
+ What I Learned
 
 * Basic ML workflow
 * How to train a model
 * How to evaluate it
 * How to take input and make predictions
 
----
 
-## Future Improvements
+
+ Future Improvements
 
 * Use a bigger dataset
 * Add more features
 * Try other models
 
----
 
-## Author
+ Author
 
-ManiKeerthan
+Suhas Emmadi
